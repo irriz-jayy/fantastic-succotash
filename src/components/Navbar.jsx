@@ -1,7 +1,16 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div
+      className="h-[10vh] flex items-center justify-center bg-primary text-secondary"
+      id="top"
+    >
+      <a href="#top" className="text-4xl font-logo ">
+        Tender Tips
+      </a>
+    </div>
+  );
 };
 
 export default Navbar;
