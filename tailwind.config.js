@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         logo: "Arizonia",
+        fun: "Agbalumo",
       },
     },
   },
