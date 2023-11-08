@@ -5,7 +5,12 @@ export default {
     extend: {
       fontFamily: {
         logo: "Arizonia",
-        fun: "Agbalumo",
+        button: "Agbalumo",
+        text: "'Cormorant Garamond'",
+        main: "'DM Serif Display'",
+      },
+      colors: {
+        secondary: "#e9daca",
       },
     },
   },
