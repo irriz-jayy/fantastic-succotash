@@ -4,7 +4,7 @@ import hero from "../assets/young-african-american-woman-with-black-curly-hair-y
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="min-h-[80vh] flex flex-col lg:flex-row md:flex-row items-center justify-between bg-teal-800">
+      <div className="min-h-[80vh] flex flex-col lg:flex-row md:flex-row items-center justify-between bg-primary">
         {/* Welcome text */}
         <div className="flex flex-col items-center justify-center w-full p-4 mb-4 h-1/2 md:ml-4 md:h-80 md:w-1/2 lg:ml-4 lg:h-80 lg:w-1/2">
           <div className="">

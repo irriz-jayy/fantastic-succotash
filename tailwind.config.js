@@ -10,6 +10,7 @@ export default {
         main: "'DM Serif Display'",
       },
       colors: {
+        primary: "#115E59",
         secondary: "#e9daca",
       },
     },
