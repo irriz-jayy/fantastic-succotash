@@ -2,11 +2,13 @@ import React from "react";
 
 const Services = () => {
   return (
-    <React.Fragment>
-      <section id="services">
-        <div>Services</div>
+    <>
+      <section id="services" className="min-h-[80vh] bg-primary text-secondary">
+        <header className="p-2 text-4xl text-center font-main">
+          Services offered
+        </header>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 

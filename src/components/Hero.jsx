@@ -17,7 +17,7 @@ const Hero = () => {
             </p>
             <a
               href="tel:+254721465135"
-              className="p-2 bg-teal-300 rounded-md font-button"
+              className="h-12 p-2 text-center rounded-md bg-secondary text-primary font-button hover:bg-yellow-100"
             >
               Schedule now !
             </a>
