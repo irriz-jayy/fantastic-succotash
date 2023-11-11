@@ -49,7 +49,7 @@ const Services = () => {
         <div className="flex flex-col justify-between p-2 md:flex-row lg:flex-row">
           {serviceList.map((service, index) => (
             <div
-              className="m-auto border w-60 h-96 bg-secondary text-primary"
+              className="m-auto mb-2 border w-60 h-96 bg-secondary text-primary"
               key={index}
             >
               <p className="p-2 text-2xl text-center font-main">
