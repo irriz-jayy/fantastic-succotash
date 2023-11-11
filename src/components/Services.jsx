@@ -3,28 +3,28 @@ import React from "react";
 const serviceList = [
   {
     name: "Braids",
-    price: "300 shillings",
+    price: "700 shillings",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt neque ratione numquam id corporis, sed suscipit eum inventore praesentium, expedita quae aspernatur, repellat qui deserunt earum a. Beatae, magni dolores.",
     time: "1 to 2 hours",
   },
   {
-    name: "Braids",
-    price: "300 shillings",
+    name: "Sister Locks installation",
+    price: "15,000 shillings",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt neque ratione numquam id corporis, sed suscipit eum inventore praesentium, expedita quae aspernatur, repellat qui deserunt earum a. Beatae, magni dolores.",
     time: "1 to 2 hours",
   },
   {
-    name: "Braids",
-    price: "300 shillings",
+    name: "Sister Locks retie",
+    price: "2000 shillings",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt neque ratione numquam id corporis, sed suscipit eum inventore praesentium, expedita quae aspernatur, repellat qui deserunt earum a. Beatae, magni dolores.",
     time: "1 to 2 hours",
   },
   {
-    name: "Braids",
-    price: "300 shillings",
+    name: "School Kids lines",
+    price: "500 shillings",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt neque ratione numquam id corporis, sed suscipit eum inventore praesentium, expedita quae aspernatur, repellat qui deserunt earum a. Beatae, magni dolores.",
     time: "1 to 2 hours",
@@ -55,7 +55,7 @@ const Services = () => {
               <p className="p-2 text-2xl text-center font-main">
                 {service.name}
               </p>
-              <p className="p-2 text-lg text-center font-text">
+              <p className="p-2 text-lg font-bold text-center font-text">
                 {service.price}
               </p>
               <p className="text-lg text-center font-text">{service.details}</p>
