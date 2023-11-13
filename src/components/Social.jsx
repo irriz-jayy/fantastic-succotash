@@ -5,9 +5,21 @@ import instagramLogo from "../assets/logos/instagram.png";
 import whatsappLogo from "../assets/logos/whatsapp.png";
 
 const socialLinks = [
-  { platform: "Facebook", logo: facebookLogo, url: "https://facebook.com" },
-  { platform: "WhatsApp", logo: whatsappLogo, url: "https://whatsapp.com" },
-  { platform: "Instagram", logo: instagramLogo, url: "https://instagram.com" },
+  {
+    platform: "Facebook",
+    logo: facebookLogo,
+    url: "https://www.facebook.com/nancyakinyi.ongwen.1",
+  },
+  {
+    platform: "WhatsApp",
+    logo: whatsappLogo,
+    url: "https://wa.me/message/GDLHH5FJG225K1",
+  },
+  {
+    platform: "Instagram",
+    logo: instagramLogo,
+    url: "https://www.instagram.com/nancy_akinyi_ongwen/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+  },
 ];
 
 const Social = () => {
