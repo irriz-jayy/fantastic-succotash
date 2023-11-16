@@ -3,7 +3,7 @@ const navigation = {
     { name: "Home", href: "#top" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Book", href: "#contact" },
+    // { name: "Book", href: "#contact" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Social media", href: "#social" },
   ],
