@@ -19,22 +19,22 @@ const Testimonials = () => {
   return (
     <>
       <section id="testimonials">
-        <div className="min-h-[50vh] bg-primary text-secondary">
+        <div className="min-h-[50vh] bg-secondary text-primary">
           {/* header section */}
-          <header className="p-2 text-4xl text-center font-main text-secondary">
+          <header className="p-2 text-4xl text-center font-main text-primary">
             Testimonials{" "}
           </header>
-          <p className="text-lg text-center font-text text-secondary">
+          <p className="text-lg text-center font-text text-primary">
             I have worked with hundreds of people
           </p>
           {/* testimonial cards */}
           <div className="flex flex-col justify-between p-2 md:flex-row lg:flex-row">
             {/* Card */}{" "}
             {testimonialData.map((testimonial, index) => (
-              <div className="m-auto mb-2 rounded-md h-60 w-96 bg-secondary text-primary">
+              <div className="m-auto mb-2 rounded-md h-60 w-96 bg-primary text-secondary">
                 <div
                   key={index}
-                  className="m-auto mb-2 rounded-md h-60 w-96 bg-secondary text-primary"
+                  className="m-auto mb-2 rounded-md h-60 w-96 bg-primary text-secondary"
                 >
                   <p className="p-2 text-lg text-left font-text">
                     {testimonial.text}
