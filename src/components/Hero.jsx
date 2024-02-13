@@ -16,6 +16,8 @@ const Hero = () => {
               Experience luxury in your own space
             </p>
             <a
+              rel="noopener noreferrer" // For enhanced security
+              target="_blank"
               href="tel:+254721465135"
               className="h-12 p-2 text-center rounded-md bg-secondary text-primary font-button hover:bg-yellow-100"
             >

@@ -42,7 +42,13 @@ const Social = () => {
             </div>
             <div className="flex items-center justify-center w-full h-3/4">
               {socialLinks.map((link, index) => (
-                <a key={index} href={link.url} className="p-4 mr-2">
+                <a
+                  key={index}
+                  href={link.url}
+                  rel="noopener noreferrer" // For enhanced security
+                  target="_blank"
+                  className="p-4 mr-2"
+                >
                   <img
                     src={link.logo}
                     alt={`${link.platform} logo`}
